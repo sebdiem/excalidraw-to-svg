@@ -1,0 +1,6 @@
+services:
+  excalidraw-to-svg:
+    platform: linux/amd64
+    build:
+      context: .
+      dockerfile: ./excalidraw-svg.dockerfile

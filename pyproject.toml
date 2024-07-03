@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "excalidraw-to-svg"
+version = "0.1.0"
+description = "Convert .excalidraw files to .svg. Wrapper around https://github.com/JRJurman/excalidraw-to-svg"
+authors = ["Sébastien Diemer <sdiemer@mytraffic.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.4"
+
+[tool.poetry.scripts]
+excalidraw-to-svg = "excalidraw_to_svg.main:main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
